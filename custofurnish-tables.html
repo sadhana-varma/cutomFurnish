@@ -13,8 +13,9 @@
     <div class="row" style="margin-bottom:50px;padding-bottom: 0px;">
         <img src="http://d32e2cg1dqah35.cloudfront.net/static/images/miscellaneous/custom-furnish.png" alt="KustomMade" style="padding-top: 40px;">
      </div>
+
     <div class="row" style="background-color: #fafafa;width:100%;border-bottom: 1px solid #e31e24">
-        <div class="button-group,button_prop" >
+        <div class="button-group" >
             <a class="button,button_prop" style="color:black ; padding-left: 20px">HOME</a>
             <a class="button,button_prop" style="color:black ;padding-left: 20px">BEDROOM</a>
             <a class="button,button_prop" style="color: black;padding-left: 20px">KITCHEN</a>
@@ -24,37 +25,82 @@
             <a class="button,button_prop" style="color: black;padding-left: 20px">FULL-HOUSE FURNISHING</a>
         </div>
     </div>
+
      <div class="row">
         <div class="column large-8">
             <div class="row" style="border-bottom: 1px solid black ">
-                <img src="http://d32e2cg1dqah35.cloudfront.net/static/images/tables/pedestals/rectangle/3072/pedestal2/sheesham/natural1.jpg" class="thumbnail,image" border="0" alt="" />
+                <img src="images\natural1.jpg" class="thumbnail,image" border="0" alt="" />
             </div>
 
-            <div class="row">
+            <div class="row shapes">
                 <div class="column">
-                    <img src="http://d32e2cg1dqah35.cloudfront.net/static/images/common/display/tables/circle.png" class="thumbnail,image_size" border="0" alt="circle"/>
-                    <span class="fig_text">Circle</span>
-                    <img src="http://d32e2cg1dqah35.cloudfront.net/static/images/common/display/tables/square.png" class="thumbnail,image_size" border="0" alt="" />
-                    <img src="http://d32e2cg1dqah35.cloudfront.net/static/images/common/display/tables/rectangle.png" class="thumbnail,image_size" border="0" alt="" />
+                    <div class="show" id="shapes">
+                  <img src="images/shapes/circle.png">
+                  <img src="images/shapes/rectangle.png">
+                  <img src="images/shapes/square.png">
+                  </div>
+
+                <div class="scroll show" style="display: none" id="sizes">
+                  <img src="images/sizes/3048.png">
+                  <img src="images/sizes/3060.png">
+                   <img src="images/sizes/3072.png">
+                   <img src="images/sizes/3354.png">
+                   <img src="images/sizes/3360.png">
+                   <img src="images/sizes/3372.png">
+                   <img src="images/sizes/3672.png">
+                   <img src="images/sizes/3678.png">
+                   <img src="images/sizes/3684.png">
+               </div>
+
+                <div class="show scroll"  style="display: none" id="legs">
+                    <img src="images/legDesign/leg1.png">
+                  <img src="images/legDesign/leg2.png">
+                   <img src="images/legDesign/leg3.png">
+                   <img src="images/legDesign/leg4.png">
+                    <img src="images/legDesign/leg5.png">
+                    <img src="images/legDesign/leg6.png">
+                    <img src="images/legDesign/leg7.png">
+                    <img src="images/legDesign/leg8.png">
+                    <img src="images/legDesign/leg9.png">
+                    <img src="images/legDesign/leg10.png">
+                    <img src="images/legDesign/leg11.png">
+                </div>
+
+                <div class="show" style="display: none" id="pedestal">
+                    <img src="images/pedestal/pedestal1.png">
+                  <img src="images/pedestal/pedestal2.png">
+                   <img src="images/pedestal/pedestal3.png">
+                   <img src="images/pedestal/pedestal4.png">
+                </div>
+
+                 <div class="show" style="display: none" id="top">
+                    <img src="images/top color/natural1.png">
+                    <img src="images/top color/natural2.png">
+                </div>
+
+                  <div class="show" style="display: none" id="leg">
+                    <img src="images/top color/natural1.png">
+                    <img src="images/top color/natural2.png">
                 </div>
             </div>
         </div>
 
-                <div class="large-4 columns" id="scroll" style="padding-top: 20px">
+     </div>
 
-                        <div class="large-11 large-centered columns,tab_prop" id="tab-adj">
-                            <ul class="tabs vertical" id="example-vert-tabs">
-                                <li class="tabs-title is-active menu changshape cha shapeInfo,tab_prop" id="bt1" data-type="list1" data-shape="rectangle" ><a href="#panel1v" style="color: black">SHAPE</a></li>
-                                <li class="tabs-title menu changsize cha,tab_prop" id="bt2" data-type="size" data-size="3048"><a href="#panel2v" data-target="sec2" style="color: black">SIZE</a></li>
-                                <li class="tabs-title menu changlegs cha legsInfo,tab_prop " id="bt3" data-type="Legs" data-legs="picidae"><a href="#panel3v" style="color: black">LEG DESIGN</a></li>
-                                <li class="tabs-title menu changpedastals cha pedastalsInfo,tab_prop" id="bt4" data-type="Pedastals" data-pedastals="macropus" data-pedes=""><a href="#panel4v" style="color: black">PEDESTAL DESIGN</a></li>
-                                <li class="tabs-title menu changtopcolour cha topcolourInfo,tab_prop" id="bt5" data-type="topcolour" data-topcolour="sheeshamwalnut"><a href="#panel3v" style="color: black">TOP COLOR</a></li>
-                                <li class="tabs-title menu changlegcolour cha legcolourInfo,tab_prop" id="bt6" data-type="legcolour" data-legcolour="sheeshamwalnut"><a href="#panel4v" style="color: black">LEG COLOR</a></li>
+                <div class="large-4 columns" id="scroll" style="padding-top: 20px">
+                        <div class="large-11 large-centered columns ,tab_prop" id="tab-adj">
+                            <ul class="tabs vertical" >
+                                <li class="tabs-title is-active menu"  data-type="shapes"> <a href="#panel1v" style="color: black">SHAPE</a></li>
+                                <li class="tabs-title menu"  data-type="sizes"> <a href="#panel2v" data-target="sec2" style="color: black">SIZE</a></li>
+                                <li class="tabs-title menu"  data-type="legs"> <a href="#panel3v" style="color: black">LEG DESIGN</a></li>
+                                <li class="tabs-title menu"  data-type="pedestal"> <a href="#panel4v" style="color: black">PEDESTAL DESIGN</a></li>
+                                <li class="tabs-title menu"  data-type="top"> <a href="#panel3v" style="color: black">TOP COLOR</a></li>
+                                <li class="tabs-title menu"  data-type="leg"> <a href="#panel4v" style="color: black">LEG COLOR</a></li>
                             </ul>
                         </div>
-
                 </div>
-            </div>     
+          </div>
+
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
