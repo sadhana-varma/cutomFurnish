@@ -46,8 +46,8 @@ margin-bottom: 5px;
 {
     width:600px;
     height:150px;
-    overflow-y:hidden;
+    /*overflow-y:hidden;*/
     overflow-x:scroll;
-    /*overflow: scroll;*/
+
 }
 
