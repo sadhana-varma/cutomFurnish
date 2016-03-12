@@ -14,7 +14,7 @@ $(document).ready(function(){
                   $('.click').click(function(){
                       var size=$(this).attr("data-size");
                       var source=$('.'+shape+'-'+size).attr('src');
-                      $('#main-top').attr("src",source);
+                      $('.main-top').attr("src",source);
 
                   })
               }
@@ -26,16 +26,16 @@ $(document).ready(function(){
 
 
     $('#circle').click(function() {
-     $('#main-top').attr("src","images/main/shape-main/circle-main.png");
+     $('.main-top').attr("src","images/main/shape-main/circle-main.png");
      //$('#main-bottom').attr("src","images/main/circle-main-bottom.png");
  });
 
     $('#rectangle').click(function(){
-      $('#main-top').attr("src","images/main/shape-main/rectangle-main-top.png ")
+      $('.main-top').attr("src","images/main/shape-main/rectangle-main-top.png ")
     });
 
     $('#square').click(function(){
-     $('#main-top').attr("src","images/main/shape-main/square-main-top.png ")
+     $('.main-top').attr("src","images/main/shape-main/square-main-top.png ")
     })
 
 });

@@ -1,4 +1,17 @@
-﻿.image
+﻿
+.main-image
+{
+    position: relative;
+}
+
+.main-image img
+{
+    position: absolute;
+    top:0;
+}
+
+
+.image
 {
     border:none;
     width:550px;
@@ -48,6 +61,6 @@ margin-bottom: 5px;
     height:150px;
     /*overflow-y:hidden;*/
     overflow-x:scroll;
-
 }
+
 
