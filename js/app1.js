@@ -95,21 +95,35 @@ $(document).ready(function(){
       $('.show').hide();
       $('.'+ shape+'-'+id).show();
       $('.'+id).click(function(){
+      if(id!='top'||'leg')
+      {
       var size=$(this).attr("data-size");
       var source=$('.'+id+'-'+size).attr('src');
       if(id=='sizes')
        $('.main-top').attr("src",source);
       else
        $('.main-bottom').attr("src",source);
-      if(id=='top'||'leg')
-      {
-
       }
+      else
+      {
+          if(id=='top'){
+              $('.first-top').click(function(){
+                  var first='first',top='top';
+                  var source=$('.'+id+'-'+size+'-'+first+'-'+top).attr('src');
+                   $('.main-top').attr("src",source);
+              })
 
+              $('.second-top').click(function(){
+                  var source=$('.'+id+'-'+size).attr('src');
+                   $('.main-bottom').attr("src",source);
+              })
+          }
+      }
       })
     }
    })
  }
+
 
 
   $('.menu').click(function(){
