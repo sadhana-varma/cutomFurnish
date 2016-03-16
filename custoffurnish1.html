@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <script type="text/javascript" src="js/vendor/jquery.min.js"></script>
     <script type="text/javascript" src="js/app1.js"> </script>
+    <script type="text/javascript" src="js/data.json"> </script>
 </head>
 <body>
     <div class="row main" style="margin-bottom:50px;padding-bottom: 0px;">
@@ -54,151 +55,165 @@
 
             <div class="row" style="padding-top: 200px">
                 <div class="column shapes show">
-                    <img id="circle" class="shapes" data-shape="circle" src="images/shapes/circle.png">
-                    <img id="rectangle" class="shapes" data-shape="rectangle" src="images/shapes/rectangle.png">
-                    <img id="square" class="shapes" data-shape="square" src="images/shapes/square.png">
+                    <img id="circle" class="shapes" data-size="36" data-value="40" data-shape="circle" data-bottom="pedestals" data-num="pedestal1" src="images/shapes/circle.png">
+                    <img id="rectangle" class="shapes" data-size="3048" data-value="25" data-shape="rectangle" data-bottom="pedestals" data-num="pedestal1" src="images/shapes/rectangle.png">
+                    <img id="square" class="shapes" data-size="3636" data-value="25" data-shape="square" data-bottom="legs" data-num="leg1" src="images/shapes/square.png">
                 </div>
 
 
-                <div class="column show sizes rectangle-sizes scroll" style="display: none">
-                   <img class="sizes" data-size="3048" src="images/sizes/3048.png">
-                   <img class="sizes" data-size="3060" src="images/sizes/3060.png">
-                   <img class="sizes" data-size="3072" src="images/sizes/3072.png">
-                   <img class="sizes" data-size="3354" src="images/sizes/3354.png">
-                   <img class="sizes" data-size="3360" src="images/sizes/3360.png">
-                   <img class="sizes" data-size="3372" src="images/sizes/3372.png">
-                   <img class="sizes" data-size="3672" src="images/sizes/3672.png">
-                   <img class="sizes" data-size="3678" src="images/sizes/3678.png">
-                   <img class="sizes" data-size="3684" src="images/sizes/3684.png">
-                    <img class="sizes" data-size="4284" src="images/sizes/4284.png">
-                    <img class="sizes" data-size="4290" src="images/sizes/4290.png">
+                <!--<img class="sizes-3048" style="display: none" src="images/tables_data/tops/rectangle/3048/top1/sheesham/25/natural2.png"/>-->
+                <!--<img class="sizes-3060" style="display: none" src="images/tables_data/tops/rectangle/3060/top1/sheesham/25/natural2.png"/>-->
+                <!--<img class="sizes-3072" style="display: none" src="images/tables_data/tops/rectangle/3072/top1/sheesham/25/natural2.png"/>-->
+                <!--<img class="sizes-3354" style="display: none" src="images/tables_data/tops/rectangle/3354/top1/sheesham/25/natural2.png"/>-->
+                <!--<img class="sizes-3360" style="display: none" src="images/tables_data/tops/rectangle/3360/top1/sheesham/25/natural2.png"/>-->
+                <!--<img class="sizes-3372" style="display: none" src="images/tables_data/tops/rectangle/3372/top1/sheesham/25/natural2.png"/>-->
+                <!--<img class="sizes-3672" style="display: none" src="images/tables_data/tops/rectangle/3672/top1/sheesham/25/natural2.png"/>-->
+                <!--<img class="sizes-3678" style="display: none" src="images/tables_data/tops/rectangle/3678/top1/sheesham/25/natural2.png"/>-->
+                <!--<img class="sizes-3684" style="display: none" src="images/tables_data/tops/rectangle/3684/top1/sheesham/25/natural2.png"/>-->
+                <!--<img class="sizes-4284" style="display: none" src="images/tables_data/tops/rectangle/4284/top1/sheesham/25/natural2.png"/>-->
+                <!--<img class="sizes-4290" style="display: none" src="images/tables_data/tops/rectangle/4290/top1/sheesham/25/natural2.png"/>-->
+
+                <!--<img class="sizes-3048-first-top" style="display: none" src="images/tables_data/tops/rectangle/3048/top1/sheesham/25/natural1.png"/>-->
+                <!--<img class="sizes-3060-first-top" style="display: none" src="images/tables_data/tops/rectangle/3060/top1/sheesham/25/natural1.png"/>-->
+                <!--<img class="sizes-3072-first-top" style="display: none" src="images/tables_data/tops/rectangle/3072/top1/sheesham/25/natural1.png"/>-->
+                <!--<img class="sizes-3354-first-top" style="display: none" src="images/tables_data/tops/rectangle/3354/top1/sheesham/25/natural1.png"/>-->
+                <!--<img class="sizes-3360-first-top" style="display: none" src="images/tables_data/tops/rectangle/3360/top1/sheesham/25/natural1.png"/>-->
+                <!--<img class="sizes-3372-first-top" style="display: none" src="images/tables_data/tops/rectangle/3372/top1/sheesham/25/natural1.png"/>-->
+                <!--<img class="sizes-3672-first-top" style="display: none" src="images/tables_data/tops/rectangle/3672/top1/sheesham/25/natural1.png"/>-->
+                <!--<img class="sizes-3678-first-top" style="display: none" src="images/tables_data/tops/rectangle/3678/top1/sheesham/25/natural1.png"/>-->
+                <!--<img class="sizes-3684-first-top" style="display: none" src="images/tables_data/tops/rectangle/3684/top1/sheesham/25/natural1.png"/>-->
+                <!--<img class="sizes-4284-first-top" style="display: none" src="images/tables_data/tops/rectangle/4284/top1/sheesham/25/natural1.png"/>-->
+                <!--<img class="sizes-4290-first-top" style="display: none" src="images/tables_data/tops/rectangle/4290/top1/sheesham/25/natural1.png"/>-->
+
+                <div class="column show sizes rectangle-sizes scroll" data-num="top1"  style="display: none">
+                   <img class="sizes" data-size="3048" data-num="top1" src="images/sizes/3048.png">
+                   <img class="sizes" data-size="3060" data-num="top1" src="images/sizes/3060.png">
+                   <img class="sizes" data-size="3072" data-num="top1" src="images/sizes/3072.png">
+                   <img class="sizes" data-size="3354" data-num="top1" src="images/sizes/3354.png">
+                   <img class="sizes" data-size="3360" data-num="top1" src="images/sizes/3360.png">
+                   <img class="sizes" data-size="3372" data-num="top1" src="images/sizes/3372.png">
+                   <img class="sizes" data-size="3672" data-num="top1" src="images/sizes/3672.png">
+                   <img class="sizes" data-size="3678" data-num="top1" src="images/sizes/3678.png">
+                   <img class="sizes" data-size="3684" data-num="top1" src="images/sizes/3684.png">
+                    <img class="sizes" data-size="4284" data-num="top1" src="images/sizes/4284.png">
+                    <img class="sizes" data-size="4290" data-num="top1" src="images/sizes/4290.png">
                 </div>
 
-                <img class="sizes-3048" style="display: none" src="images/tables_data/tops/rectangle/3048/top1/sheesham/25/natural2.png"/>
-                <img class="sizes-3060" style="display: none" src="images/tables_data/tops/rectangle/3060/top1/sheesham/25/natural2.png"/>
-                <img class="sizes-3072" style="display: none" src="images/tables_data/tops/rectangle/3072/top1/sheesham/25/natural2.png"/>
-                <img class="sizes-3354" style="display: none" src="images/tables_data/tops/rectangle/3354/top1/sheesham/25/natural2.png"/>
-                <img class="sizes-3360" style="display: none" src="images/tables_data/tops/rectangle/3360/top1/sheesham/25/natural2.png"/>
-                <img class="sizes-3372" style="display: none" src="images/tables_data/tops/rectangle/3372/top1/sheesham/25/natural2.png"/>
-                <img class="sizes-3672" style="display: none" src="images/tables_data/tops/rectangle/3672/top1/sheesham/25/natural2.png"/>
-                <img class="sizes-3678" style="display: none" src="images/tables_data/tops/rectangle/3678/top1/sheesham/25/natural2.png"/>
-                <img class="sizes-3684" style="display: none" src="images/tables_data/tops/rectangle/3684/top1/sheesham/25/natural2.png"/>
-                <img class="sizes-4284" style="display: none" src="images/tables_data/tops/rectangle/4284/top1/sheesham/25/natural2.png"/>
-                <img class="sizes-4290" style="display: none" src="images/tables_data/tops/rectangle/4290/top1/sheesham/25/natural2.png"/>
 
-                <img class="sizes-3048-first-top" style="display: none" src="images/tables_data/tops/rectangle/3048/top1/sheesham/25/natural1.png"/>
-                <img class="sizes-3060-first-top" style="display: none" src="images/tables_data/tops/rectangle/3060/top1/sheesham/25/natural1.png"/>
-                <img class="sizes-3072-first-top" style="display: none" src="images/tables_data/tops/rectangle/3072/top1/sheesham/25/natural1.png"/>
-                <img class="sizes-3354-first-top" style="display: none" src="images/tables_data/tops/rectangle/3354/top1/sheesham/25/natural1.png"/>
-                <img class="sizes-3360-first-top" style="display: none" src="images/tables_data/tops/rectangle/3360/top1/sheesham/25/natural1.png"/>
-                <img class="sizes-3372-first-top" style="display: none" src="images/tables_data/tops/rectangle/3372/top1/sheesham/25/natural1.png"/>
-                <img class="sizes-3672-first-top" style="display: none" src="images/tables_data/tops/rectangle/3672/top1/sheesham/25/natural1.png"/>
-                <img class="sizes-3678-first-top" style="display: none" src="images/tables_data/tops/rectangle/3678/top1/sheesham/25/natural1.png"/>
-                <img class="sizes-3684-first-top" style="display: none" src="images/tables_data/tops/rectangle/3684/top1/sheesham/25/natural1.png"/>
-                <img class="sizes-4284-first-top" style="display: none" src="images/tables_data/tops/rectangle/4284/top1/sheesham/25/natural1.png"/>
-                <img class="sizes-4290-first-top" style="display: none" src="images/tables_data/tops/rectangle/4290/top1/sheesham/25/natural1.png"/>
-
-
-                <div class="column show circle-sizes scroll" style="display: none" >
-                     <img  class="sizes"  data-size="36" src="images/sizes/circle/36.png">
-                    <img   class="sizes" data-size="42" src="images/sizes/circle/42.png">
-                    <img   class="sizes" data-size="48" src="images/sizes/circle/48.png">
-                    <img   class="sizes" data-size="54" src="images/sizes/circle/54.png">
-                    <img   class="sizes" data-size="60" src="images/sizes/circle/60.png">
+                <div class="column show circle-sizes scroll" style="display: none" data-num="top1">
+                     <img  class="sizes"  data-size="36" data-num="top1" src="images/sizes/circle/36.png">
+                    <img   class="sizes" data-size="42" data-num="top1" src="images/sizes/circle/42.png">
+                    <img   class="sizes" data-size="48" data-num="top1" src="images/sizes/circle/48.png">
+                    <img   class="sizes" data-size="54" data-num="top1" src="images/sizes/circle/54.png">
+                    <img   class="sizes" data-size="60" data-num="top1" src="images/sizes/circle/60.png">
                  </div>
 
-                <img class="sizes-36" style="display: none" src="images/tables_data/tops/circle/36/top1/sheesham/40/natural2.png">
-                <img class="sizes-42" style="display: none" src="images/tables_data/tops/circle/42/top1/sheesham/40/natural2.png">
-                <img class="sizes-48" style="display: none" src="images/tables_data/tops/circle/48/top1/sheesham/40/natural2.png">
-                <img class="sizes-54" style="display: none" src="images/tables_data/tops/circle/54/top1/sheesham/40/natural2.png">
-                <img class="sizes-60" style="display: none" src="images/tables_data/tops/circle/60/top1/sheesham/40/natural2.png">
+                <!--<img class="sizes-36" style="display: none" src="images/tables_data/tops/circle/36/top1/sheesham/40/natural2.png">-->
+                <!--<img class="sizes-42" style="display: none" src="images/tables_data/tops/circle/42/top1/sheesham/40/natural2.png">-->
+                <!--<img class="sizes-48" style="display: none" src="images/tables_data/tops/circle/48/top1/sheesham/40/natural2.png">-->
+                <!--<img class="sizes-54" style="display: none" src="images/tables_data/tops/circle/54/top1/sheesham/40/natural2.png">-->
+                <!--<img class="sizes-60" style="display: none" src="images/tables_data/tops/circle/60/top1/sheesham/40/natural2.png">-->
 
-                <div class="column show square-sizes scroll" style="display: none">
-                 <img class="sizes" data-size="3636" src="images/sizes/square/3636.png">
-                 <img class="sizes" data-size="4242" src="images/sizes/square/4242.png">
-                 <img class="sizes" data-size="4848" src="images/sizes/square/4848.png">
+                <div class="column show square-sizes scroll" style="display: none" data-num="top1">
+                 <img class="sizes" data-size="3636" data-num="top1" src="images/sizes/square/3636.png">
+                 <img class="sizes" data-size="4242" data-num="top1" src="images/sizes/square/4242.png">
+                 <img class="sizes" data-size="4848" data-num="top1" src="images/sizes/square/4848.png">
                 </div>
 
-                <img class="sizes-3636" style="display: none" src="images/tables_data/tops/square/3636/top1/sheesham/25/natural2.png">
-                <img class="sizes-4242" style="display: none" src="images/tables_data/tops/square/4242/top1/sheesham/25/natural2.png">
-                <img class="sizes-4848" style="display: none" src="images/tables_data/tops/square/4848/top1/sheesham/25/natural2.png">
+                <!--<img class="sizes-3636" style="display: none" src="images/tables_data/tops/square/3636/top1/sheesham/25/natural2.png">-->
+                <!--<img class="sizes-4242" style="display: none" src="images/tables_data/tops/square/4242/top1/sheesham/25/natural2.png">-->
+                <!--<img class="sizes-4848" style="display: none" src="images/tables_data/tops/square/4848/top1/sheesham/25/natural2.png">-->
 
-                <div class="column show legs rectangle-legs square-legs scroll "  style="display: none" >
-                    <img class="legs"  data-size="3048" src="images/legDesign/leg1.png">
-                    <img class="legs"  data-size="3060" src="images/legDesign/leg2.png">
-                    <img class="legs"  data-size="3072" src="images/legDesign/leg3.png">
-                    <img class="legs"  data-size="3354"src="images/legDesign/leg4.png">
-                    <img class="legs" data-size="3360" src="images/legDesign/leg5.png">
-                    <img class="legs" data-size="3372" src="images/legDesign/leg6.png">
-                    <img class="legs" data-size="3672" src="images/legDesign/leg7.png">
-                    <img class="legs" data-size="3678" src="images/legDesign/leg8.png">
-                    <img class="legs" data-size="3684" src="images/legDesign/leg9.png">
-                    <img class="legs" data-size="4284" src="images/legDesign/leg10.png">
-                    <img class="legs" data-size="4290" src="images/legDesign/leg11.png">
+                <div class="column show legs rectangle-legs  scroll "  style="display: none" >
+                    <img class="legs"  data-size="3048" data-num="leg1" src="images/legDesign/leg1.png">
+                    <img class="legs"  data-size="3048" data-num="leg2" src="images/legDesign/leg2.png">
+                    <img class="legs"  data-size="3048" data-num="leg3" src="images/legDesign/leg3.png">
+                    <img class="legs"  data-size="3048" data-num="leg4" src="images/legDesign/leg4.png">
+                    <img class="legs" data-size="3048" data-num="leg5" src="images/legDesign/leg5.png">
+                    <img class="legs" data-size="3048" data-num="leg6" src="images/legDesign/leg6.png">
+                    <img class="legs" data-size="3048" data-num="leg7" src="images/legDesign/leg7.png">
+                    <img class="legs" data-size="3048" data-num="leg8" src="images/legDesign/leg8.png">
+                    <img class="legs" data-size="3048" data-num="leg9" src="images/legDesign/leg9.png">
+                    <img class="legs" data-size="3048" data-num="leg10" src="images/legDesign/leg10.png">
+                    <img class="legs" data-size="3048" data-num="leg11" src="images/legDesign/leg11.png">
                 </div>
 
-                <img class="legs-3048" style="display: none" src="images/tables_data/legs/rectangle/3048/leg1/sheesham/natural2.jpg"/>
-                <img class="legs-060" style="display: none" src="images/tables_data/legs/rectangle/3048/leg2/sheesham/natural2.jpg"/>
-                <img class="legs-3072" style="display: none" src="images/tables_data/legs/rectangle/3048/leg3/sheesham/natural2.jpg"/>
-                <img class="legs-3354" style="display: none" src="images/tables_data/legs/rectangle/3048/leg4/sheesham/natural2.jpg"/>
-                <img class="legs-3360" style="display: none" src="images/tables_data/legs/rectangle/3048/leg5/sheesham/natural2.jpg"/>
-                <img class="legs-3372" style="display: none" src="images/tables_data/legs/rectangle/3048/leg6/sheesham/natural2.jpg"/>
-                <img class="legs-3672" style="display: none" src="images/tables_data/legs/rectangle/3048/leg7/sheesham/natural2.jpg"/>
-                <img class="legs-3678" style="display: none" src="images/tables_data/legs/rectangle/3048/leg8/sheesham/natural2.jpg"/>
-                <img class="legs-3684" style="display: none" src="images/tables_data/legs/rectangle/3048/leg9/sheesham/natural2.jpg"/>
-                <img class="legs-4284" style="display: none" src="images/tables_data/legs/rectangle/3048/leg10/sheesham/natural2.jpg"/>
-                <img class="legs-4290" style="display: none" src="images/tables_data/legs/rectangle/3048/leg11/sheesham/natural2.jpg"/>
+                <div class="column show square-legs scroll "  style="display: none" >
+                    <img class="legs"  data-size="3636" data-num="leg1" src="images/legDesign/leg1.png">
+                    <img class="legs"  data-size="3636" data-num="leg2" src="images/legDesign/leg2.png">
+                    <img class="legs"  data-size="3636" data-num="leg3" src="images/legDesign/leg3.png">
+                    <img class="legs"  data-size="3636" data-num="leg4" src="images/legDesign/leg4.png">
+                    <img class="legs" data-size="3636" data-num="leg5" src="images/legDesign/leg5.png">
+                    <img class="legs" data-size="3636" data-num="leg6" src="images/legDesign/leg6.png">
+                    <img class="legs" data-size="3636" data-num="leg7" src="images/legDesign/leg7.png">
+                    <img class="legs" data-size="3636" data-num="leg8" src="images/legDesign/leg8.png">
+                    <img class="legs" data-size="3636" data-num="leg9" src="images/legDesign/leg9.png">
+                    <img class="legs" data-size="3636" data-num="leg10" src="images/legDesign/leg10.png">
+                    <img class="legs" data-size="3636" data-num="leg11" src="images/legDesign/leg11.png">
+                </div>
+
+                <!--<img class="legs-3048" style="display: none" src="images/tables_data/legs/rectangle/3048/leg1/sheesham/natural2.jpg"/>-->
+                <!--<img class="legs-060" style="display: none" src="images/tables_data/legs/rectangle/3048/leg2/sheesham/natural2.jpg"/>-->
+                <!--<img class="legs-3072" style="display: none" src="images/tables_data/legs/rectangle/3048/leg3/sheesham/natural2.jpg"/>-->
+                <!--<img class="legs-3354" style="display: none" src="images/tables_data/legs/rectangle/3048/leg4/sheesham/natural2.jpg"/>-->
+                <!--<img class="legs-3360" style="display: none" src="images/tables_data/legs/rectangle/3048/leg5/sheesham/natural2.jpg"/>-->
+                <!--<img class="legs-3372" style="display: none" src="images/tables_data/legs/rectangle/3048/leg6/sheesham/natural2.jpg"/>-->
+                <!--<img class="legs-3672" style="display: none" src="images/tables_data/legs/rectangle/3048/leg7/sheesham/natural2.jpg"/>-->
+                <!--<img class="legs-3678" style="display: none" src="images/tables_data/legs/rectangle/3048/leg8/sheesham/natural2.jpg"/>-->
+                <!--<img class="legs-3684" style="display: none" src="images/tables_data/legs/rectangle/3048/leg9/sheesham/natural2.jpg"/>-->
+                <!--<img class="legs-4284" style="display: none" src="images/tables_data/legs/rectangle/3048/leg10/sheesham/natural2.jpg"/>-->
+                <!--<img class="legs-4290" style="display: none" src="images/tables_data/legs/rectangle/3048/leg11/sheesham/natural2.jpg"/>-->
 
 
                 <div class="column show  pedestal rectangle-pedestal show" style="display: none">
-                   <img class="pedestal" data-size="1" src="images/pedestal/pedestal1.png">
-                   <img class="pedestal"  data-size="2" src="images/pedestal/pedestal2.png">
-                   <img class="pedestal" data-size="3" src="images/pedestal/pedestal3.png">
-                  <img class="pedestal" data-size="4" src="images/pedestal/pedestal4.png">
+                   <img class="pedestal" data-size="3072" data-num="pedestal1" src="images/pedestal/pedestal1.png">
+                   <img class="pedestal"  data-size="3072" data-num="pedestal1" src="images/pedestal/pedestal2.png">
+                   <img class="pedestal" data-size="3072" data-num="pedestal1" src="images/pedestal/pedestal3.png">
+                  <img class="pedestal" data-size="3072" data-num="pedestal1" src="images/pedestal/pedestal4.png">
                 </div>
 
-                <img class="pedestal-1" style="display: none" src="images/tables_data/pedestals/rectangle/3072/pedestal1/sheesham/natural2.jpg "/>
-                <img class="pedestal-2" style="display: none" src="images/tables_data/pedestals/rectangle/3072/pedestal2/sheesham/natural2.jpg "/>
-                <img class="pedestal-3" style="display: none" src="images/tables_data/pedestals/rectangle/3072/pedestal3/sheesham/natural2.jpg "/>
-                <img class="pedestal-4" style="display: none" src="images/tables_data/pedestals/rectangle/3072/pedestal4/sheesham/natural2.jpg "/>
+                <!--<img class="pedestal-1" style="display: none" src="images/tables_data/pedestals/rectangle/3072/pedestal1/sheesham/natural2.jpg "/>-->
+                <!--<img class="pedestal-2" style="display: none" src="images/tables_data/pedestals/rectangle/3072/pedestal2/sheesham/natural2.jpg "/>-->
+                <!--<img class="pedestal-3" style="display: none" src="images/tables_data/pedestals/rectangle/3072/pedestal3/sheesham/natural2.jpg "/>-->
+                <!--<img class="pedestal-4" style="display: none" src="images/tables_data/pedestals/rectangle/3072/pedestal4/sheesham/natural2.jpg "/>-->
 
 
                 <div class="column show circle-pedestal" style="display: none" >
-                   <img   class="pedestal" data-size="main-pedestal1" src="images/pedestal/circle/pedestal5.png">
-                   <img   class="pedestal" data-size="main-pedestal2" src="images/pedestal/circle/pedestal6.png">
-                   <img   class="pedestal" data-size="main-pedestal3" src="images/pedestal/circle/pedestal7.png">
-                   <img   class="pedestal" data-size="main-pedestal4" src="images/pedestal/circle/pedestal8.png">
+                   <img   class="pedestal" data-size="36" data-num="pedestal1" src="images/pedestal/circle/pedestal5.png">
+                   <img   class="pedestal" data-size="36" data-num="pedestal2" src="images/pedestal/circle/pedestal6.png">
+                   <img   class="pedestal" data-size="36" data-num="pedestal3" src="images/pedestal/circle/pedestal7.png">
+                   <img   class="pedestal" data-size="36" data-num="pedestal4" src="images/pedestal/circle/pedestal8.png">
                 </div>
 
-                <img class="pedestal-main-pedestal1" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal1/sheesham/natural2.jpg">
-                <img class="pedestal-main-pedestal2" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal2/sheesham/natural2.jpg">
-                <img class="pedestal-main-pedestal3" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal3/sheesham/natural2.jpg">
-                <img class="pedestal-main-pedestal4" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal4/sheesham/natural2.jpg">
+                <!--<img class="pedestal-main-pedestal1" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal1/sheesham/natural2.jpg">-->
+                <!--<img class="pedestal-main-pedestal2" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal2/sheesham/natural2.jpg">-->
+                <!--<img class="pedestal-main-pedestal3" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal3/sheesham/natural2.jpg">-->
+                <!--<img class="pedestal-main-pedestal4" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal4/sheesham/natural2.jpg">-->
 
-                <img class="pedestal-main-pedestal1" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal1/sheesham/natural1.jpg">
-                <img class="pedestal-main-pedestal2" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal2/sheesham/natural1.jpg">
-                <img class="pedestal-main-pedestal3" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal3/sheesham/natural1.jpg">
-                <img class="pedestal-main-pedestal4" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal4/sheesham/natural1.jpg">
+                <!--<img class="pedestal-main-pedestal1" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal1/sheesham/natural1.jpg">-->
+                <!--<img class="pedestal-main-pedestal2" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal2/sheesham/natural1.jpg">-->
+                <!--<img class="pedestal-main-pedestal3" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal3/sheesham/natural1.jpg">-->
+                <!--<img class="pedestal-main-pedestal4" style="display: none" src="images/tables_data/pedestals/circle/36/pedestal4/sheesham/natural1.jpg">-->
 
 
-                 <div class="column show top square-top rectangle-top circle-top " style="display: none;padding-top: 20px" id="top">
-                    <img class="first-top first-top-rectangle first-top-square first-top-circle"  src="images/top%20color/natural1.png">
-                    <img class="second-top second-top-rectangle second-top-square second-top-circle" style="padding-left: 15px" src="images/top%20color/natural2.png">
+                 <div class="column show top square-top rectangle-top circle-top leg square-leg rectangle-leg circle-leg" style="display: none;padding-top: 20px" id="top">
+                    <img class="top first-top first-top-rectangle first-top-square first-top-circle" data-type="'natural1"  src="images/top%20color/natural1.png">
+                    <img class="top second-top second-top-rectangle second-top-square second-top-circle" data-type="natural2" style="padding-left: 15px" src="images/top%20color/natural2.png">
                 </div>
 
-                  <div class="column show leg square-leg rectangle-leg circle-leg" style="display: none;padding-top: 20px" id="leg">
-                    <img class="first-leg first-leg-rectangle first-leg-square first-leg-circle" src="images/top%20color/natural1.png">
-                    <img class="second-leg second-leg-rectangle second-leg-square second-leg-circle" style="padding-left: 15px" src="images/top%20color/natural2.png">
-                </div>
+                  <!--<div class="column show leg square-leg rectangle-leg circle-leg" style="display: none;padding-top: 20px" id="leg">-->
+                    <!--<img class="leg first-leg first-leg-rectangle first-leg-square first-leg-circle" src="images/top%20color/natural1.png">-->
+                    <!--<img class="leg second-leg second-leg-rectangle second-leg-square second-leg-circle" style="padding-left: 15px" src="images/top%20color/natural2.png">-->
+                <!--</div>-->
 
-                <div class="column show top" style="display: none;padding-top: 20px">
-                    <img class="first-top-click"  src="images/top%20color/natural1.png">
-                    <img class="second-top-click" style="padding-left: 15px" src="images/top%20color/natural2.png">
-                </div>
-                <div class="column show leg" style="display: none;padding-top: 20px">
-                    <img class="first-leg-click"  src="images/top%20color/natural1.png">
-                    <img class="second-leg-click" style="padding-left: 15px" src="images/top%20color/natural2.png">
-                </div>
+                <!--<div class="column show top" style="display: none;padding-top: 20px">-->
+                    <!--<img class="first-top-click"  src="images/top%20color/natural1.png">-->
+                    <!--<img class="second-top-click" style="padding-left: 15px" src="images/top%20color/natural2.png">-->
+                <!--</div>-->
+                <!--<div class="column show leg" style="display: none;padding-top: 20px">-->
+                    <!--<img class="first-leg-click"  src="images/top%20color/natural1.png">-->
+                    <!--<img class="second-leg-click" style="padding-left: 15px" src="images/top%20color/natural2.png">-->
+                <!--</div>-->
 
            </div>
 
