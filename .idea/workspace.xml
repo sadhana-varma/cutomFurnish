@@ -1,46 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="923deaad-5edb-4a2b-930e-b0278dd0213c" name="Default" comment="getting data from json">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/bottom/0138.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/bottom/0229.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/bottom/1256.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/bottom/1259.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/bottom/5014.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/bottom/5031.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/bottom/5050.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/bottom/miles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/bottom/sasha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/body/seesham/natural1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/body/seesham/natural2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/seat/fabrics/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/seat/fabrics/fabric1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/seat/fabrics/fabric2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/seat/fabrics/fabric3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/seat/fabrics/fabric4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/seat/fabrics/fabric5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/seat/fabrics/fabric6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/seat/fabrics/fabric7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/seat/fabrics/fabric8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/miles/seat/fabrics/fabric9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/body/seesham/natural1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/body/seesham/natural2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/seat/fabrics/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/seat/fabrics/fabric1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/seat/fabrics/fabric2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/seat/fabrics/fabric3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/seat/fabrics/fabric4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/seat/fabrics/fabric5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/seat/fabrics/fabric6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/seat/fabrics/fabric7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/seat/fabrics/fabric8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/chairs/sasha/seat/fabrics/fabric9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/custofurnish-tables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/app1.js" afterPath="" />
+    <list default="true" id="923deaad-5edb-4a2b-930e-b0278dd0213c" name="Default" comment="generic">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custoffurnish1.html" afterPath="$PROJECT_DIR$/custoffurnish1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
@@ -71,25 +34,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1296" column="1" selection-start-line="1296" selection-start-column="1" selection-end-line="1296" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.72262776">
+              <caret line="1197" column="13" selection-start-line="1197" selection-start-column="13" selection-end-line="1197" selection-end-column="13" />
               <folding>
-                <element signature="e#131#177#0" expanded="false" />
-                <element signature="e#264#721#0" expanded="false" />
-                <element signature="e#770#826#0" expanded="false" />
-                <element signature="e#868#930#0" expanded="false" />
-                <element signature="e#966#1248#0" expanded="false" />
-                <element signature="e#1319#1552#0" expanded="false" />
-                <element signature="e#1359#1545#0" expanded="false" />
+                <element signature="e#130#176#0" expanded="false" />
+                <element signature="e#263#720#0" expanded="false" />
+                <element signature="e#769#825#0" expanded="false" />
+                <element signature="e#867#929#0" expanded="false" />
+                <element signature="e#965#1247#0" expanded="false" />
+                <element signature="e#1358#1545#0" expanded="false" />
                 <element signature="e#1579#2057#0" expanded="false" />
                 <element signature="e#2109#2486#0" expanded="false" />
                 <element signature="e#2527#3032#0" expanded="false" />
                 <element signature="e#3074#3311#0" expanded="false" />
                 <element signature="e#3339#4196#0" expanded="false" />
                 <element signature="e#4221#13293#0" expanded="false" />
+                <element signature="e#13314#51090#0" expanded="false" />
                 <element signature="e#13327#24532#0" expanded="false" />
                 <element signature="e#24549#43945#0" expanded="false" />
                 <element signature="e#29096#34187#0" expanded="false" />
@@ -100,17 +63,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custoffurnish1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dummy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/dummy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custoffurnish1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custoffurnish1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80497134">
-              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chairs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/chairs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="e#179#251#0" expanded="false" />
+                <element signature="e#340#797#0" expanded="false" />
+                <element signature="e#832#907#0" expanded="false" />
+                <element signature="e#949#1011#0" expanded="false" />
+                <element signature="e#1061#1117#0" expanded="false" />
+                <element signature="e#1154#1436#0" expanded="false" />
+                <element signature="e#1507#1740#0" expanded="false" />
+                <element signature="e#1767#2245#0" expanded="false" />
+                <element signature="e#2297#2674#0" expanded="false" />
+                <element signature="e#2715#3174#0" expanded="false" />
+                <element signature="e#3216#3453#0" expanded="false" />
+                <element signature="e#3481#4411#0" expanded="false" />
+                <element signature="e#4435#6181#0" expanded="false" />
+                <element signature="e#6202#8832#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -130,7 +138,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="template_rendering" />
+        <entry key="$PROJECT_DIR$" value="templating" />
       </map>
     </option>
   </component>
@@ -144,11 +152,13 @@
         <option value="$PROJECT_DIR$/js/app1.js" />
         <option value="$PROJECT_DIR$/CFold.html" />
         <option value="$PROJECT_DIR$/js/chairs" />
-        <option value="$PROJECT_DIR$/js/data.json" />
         <option value="$PROJECT_DIR$/js/comented" />
         <option value="$PROJECT_DIR$/file1" />
-        <option value="$PROJECT_DIR$/custoffurnish1.html" />
         <option value="$PROJECT_DIR$/js/chairs.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/data.json" />
+        <option value="$PROJECT_DIR$/js/dummy" />
+        <option value="$PROJECT_DIR$/custoffurnish1.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
@@ -188,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -217,13 +228,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,6 +243,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -493,7 +504,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458741150846</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="generic">
+      <created>1459505729610</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1459505729610</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -504,8 +521,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1616085" sideWeight="0.49305555" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1707132" sideWeight="0.49305555" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.4969651" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13429439" sideWeight="0.5069444" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263889" sideWeight="0.5030349" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263889" sideWeight="0.4969651" order="9" side_tool="false" content_ui="tabs" />
@@ -513,12 +532,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -540,20 +557,16 @@
     <MESSAGE value="getting data from json" />
     <MESSAGE value="templating" />
     <MESSAGE value="templated html" />
-    <option name="LAST_COMMIT_MESSAGE" value="templated html" />
+    <MESSAGE value="generic" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/tables_data/tops/circle/36/top1/sheesham/40/natural2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/main/shape-main/circle-main-bottom.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -777,23 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6921606">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,55 +797,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6502732">
           <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/js/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03250478">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dummy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1296" column="1" selection-start-line="1296" selection-start-column="1" selection-end-line="1296" selection-end-column="1" />
-          <folding>
-            <element signature="e#131#177#0" expanded="false" />
-            <element signature="e#264#721#0" expanded="false" />
-            <element signature="e#770#826#0" expanded="false" />
-            <element signature="e#868#930#0" expanded="false" />
-            <element signature="e#966#1248#0" expanded="false" />
-            <element signature="e#1319#1552#0" expanded="false" />
-            <element signature="e#1359#1545#0" expanded="false" />
-            <element signature="e#1579#2057#0" expanded="false" />
-            <element signature="e#2109#2486#0" expanded="false" />
-            <element signature="e#2527#3032#0" expanded="false" />
-            <element signature="e#3074#3311#0" expanded="false" />
-            <element signature="e#3339#4196#0" expanded="false" />
-            <element signature="e#4221#13293#0" expanded="false" />
-            <element signature="e#13327#24532#0" expanded="false" />
-            <element signature="e#24549#43945#0" expanded="false" />
-            <element signature="e#29096#34187#0" expanded="false" />
-            <element signature="e#34225#39844#0" expanded="false" />
-            <element signature="e#39868#43929#0" expanded="false" />
-          </folding>
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/chairs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44262296">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#179#251#0" expanded="false" />
+            <element signature="e#340#797#0" expanded="false" />
+            <element signature="e#832#907#0" expanded="false" />
+            <element signature="e#949#1011#0" expanded="false" />
+            <element signature="e#1061#1117#0" expanded="false" />
+            <element signature="e#1154#1436#0" expanded="false" />
+            <element signature="e#1507#1740#0" expanded="false" />
+            <element signature="e#1767#2245#0" expanded="false" />
+            <element signature="e#2297#2674#0" expanded="false" />
+            <element signature="e#2715#3174#0" expanded="false" />
+            <element signature="e#3216#3453#0" expanded="false" />
+            <element signature="e#3481#4411#0" expanded="false" />
+            <element signature="e#4435#6181#0" expanded="false" />
+            <element signature="e#6202#8832#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custoffurnish1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80497134">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72262776">
+          <caret line="1197" column="13" selection-start-line="1197" selection-start-column="13" selection-end-line="1197" selection-end-column="13" />
+          <folding>
+            <element signature="e#130#176#0" expanded="false" />
+            <element signature="e#263#720#0" expanded="false" />
+            <element signature="e#769#825#0" expanded="false" />
+            <element signature="e#867#929#0" expanded="false" />
+            <element signature="e#965#1247#0" expanded="false" />
+            <element signature="e#1358#1545#0" expanded="false" />
+            <element signature="e#1579#2057#0" expanded="false" />
+            <element signature="e#2109#2486#0" expanded="false" />
+            <element signature="e#2527#3032#0" expanded="false" />
+            <element signature="e#3074#3311#0" expanded="false" />
+            <element signature="e#3339#4196#0" expanded="false" />
+            <element signature="e#4221#13293#0" expanded="false" />
+            <element signature="e#13314#51090#0" expanded="false" />
+            <element signature="e#13327#24532#0" expanded="false" />
+            <element signature="e#24549#43945#0" expanded="false" />
+            <element signature="e#29096#34187#0" expanded="false" />
+            <element signature="e#34225#39844#0" expanded="false" />
+            <element signature="e#39868#43929#0" expanded="false" />
           </folding>
         </state>
       </provider>

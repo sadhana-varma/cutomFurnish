@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     var selected_menu;
     var default_value = get_first_menu_item(tables_icons);
     var state = {
@@ -44,7 +43,7 @@ $(document).ready(function () {
 
     function click() {
         $('.click').click(function () {
-            var menu_item = $(this).attr("data-name")
+            var menu_item = $(this).attr("data-name");
             var item = $(this).attr("data-type");
             state[menu_item] = item;
             display(state['id']);
@@ -1144,7 +1143,7 @@ var tables_data = {
 }
 
 
-var chairs_icons = {
+var chairs_icons ={
     'FrameStyle': {
         "id": "body",
         'dep': [],
